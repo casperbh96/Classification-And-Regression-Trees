@@ -1,7 +1,8 @@
 
 class DecisionTreeClassifier():
-    def __init__(self):
-        pass
+    def __init__(self, criterion='gini', max_depth=None):
+        self.criterion = criterion
+        self.max_depth = max_depth
 
     def fit(self, X_train, y_train):
         pass
